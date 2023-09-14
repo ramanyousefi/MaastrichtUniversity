@@ -18,7 +18,6 @@ public class NeuroConverter {
         // -- Write your code below
         int nueroCoins = (int) amount;
         int c49 = 0, c9 = 0, c1 = 0;
-       // double remainingDouble = (amount - nueroCoins) * 100;
         int remaining = (int)Math.round((amount-nueroCoins)*100);
 
         while (remaining > 0) {
